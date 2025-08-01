@@ -1,0 +1,35 @@
+.category-card {
+    background-color: rgb(54, 69, 85);
+    border-radius: 12px;
+    padding: 25px 20px;
+    transition: all 0.3s ease;
+    
+  }
+  
+  .category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .icon-circle {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: rgb(231, 231, 231);
+    font-size: 1.8rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btn-outline-light {
+    border-radius: 20px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-outline-light:hover {
+    background-color: #ffffff;
+    color: #364555;
+  }

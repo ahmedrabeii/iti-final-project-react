@@ -1,0 +1,36 @@
+.custom-navbar {
+    background-color: #364555; 
+    padding: 15px 0;
+    margin-bottom: -15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .custom-navbar .navbar-brand {
+    font-weight: bold;
+    color: rgb(231, 231, 231);
+    font-size: 24px;
+  }
+  
+  .custom-navbar .nav-link {
+    color: rgb(231, 231, 231);
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .custom-navbar .nav-link:hover {
+    color: rgb(138, 153, 169);
+  }
+  
+  .cart-icon {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .cart-badge {
+    position: absolute;
+    top: -8px;
+    right: -12px;
+    font-size: 12px;
+    padding: 4px 7px;
+  }
+  

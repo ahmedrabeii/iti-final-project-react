@@ -1,0 +1,33 @@
+.product-card {
+    background-color: rgb(54, 69, 85);
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-4px);
+  }
+
+  .book-cover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .book-cover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .btn-outline-light {
+    border-radius: 20px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-outline-light:hover {
+    background-color: #ffffff;
+    color: #364555;
+  }
+
+
+  
+  

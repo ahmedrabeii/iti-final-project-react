@@ -1,0 +1,48 @@
+  .custom-card {
+    background-color: rgb(54, 69, 85);
+    border-radius: 12px;
+    padding-top: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .custom-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .book-img {
+    max-height: 200px;
+    object-fit: contain;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .book-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .btn-outline-light {
+    border-radius: 20px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-outline-light:hover {
+    background-color: #ffffff;
+    color: #364555;
+  }
+
+  .btn-outline-secondary {
+    border-radius: 15px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+      background-color:#364555 ;
+      color: #ffffff;
+  }
+  
+  .btn-outline-secondary:hover {
+    background-color:#ffffff ;
+    color: #364555;
+  }
+  
+  
